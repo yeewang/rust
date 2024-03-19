@@ -1091,6 +1091,9 @@ fn supported_sanitizers(
         "aarch64-unknown-linux-gnu" => {
             common_libs("linux", "aarch64", &["asan", "lsan", "msan", "tsan", "hwasan"])
         }
+        "aarch64-unknown-linux-ohos" => {
+            common_libs("linux", "aarch64", &["asan", "lsan", "msan", "tsan", "hwasan"])
+        }
         "x86_64-apple-darwin" => darwin_libs("osx", &["asan", "lsan", "tsan"]),
         "x86_64-unknown-fuchsia" => common_libs("fuchsia", "x86_64", &["asan"]),
         "x86_64-unknown-freebsd" => common_libs("freebsd", "x86_64", &["asan", "msan", "tsan"]),
@@ -1103,6 +1106,9 @@ fn supported_sanitizers(
             common_libs("linux", "x86_64", &["asan", "lsan", "msan", "tsan"])
         }
         "x86_64-unknown-linux-musl" => {
+            common_libs("linux", "x86_64", &["asan", "lsan", "msan", "tsan"])
+        }
+        "x86_64-unknown-linux-ohos" => {
             common_libs("linux", "x86_64", &["asan", "lsan", "msan", "tsan"])
         }
         _ => Vec::new(),

@@ -71,6 +71,7 @@ mod l4re_base;
 mod linux_base;
 mod linux_gnu_base;
 mod linux_musl_base;
+mod linux_ohos_base;
 mod linux_uclibc_base;
 mod msvc_base;
 mod netbsd_base;
@@ -1256,6 +1257,11 @@ supported_targets! {
 
     ("aarch64-unknown-nto-qnx710", aarch64_unknown_nto_qnx_710),
     ("x86_64-pc-nto-qnx710", x86_64_pc_nto_qnx710),
+
+    ("aarch64-unknown-linux-ohos", aarch64_unknown_linux_ohos),
+    ("armv7-unknown-linux-ohos", armv7_unknown_linux_ohos),
+    ("x86_64-unknown-linux-ohos", x86_64_unknown_linux_ohos),
+    ("riscv64-unknown-linux-ohos", riscv64_unknown_linux_ohos),
 }
 
 /// Cow-Vec-Str: Cow<'static, [Cow<'static, str>]>
