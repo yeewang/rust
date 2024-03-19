@@ -174,6 +174,7 @@ target | std | notes
 [`riscv32imafc-unknown-none-elf`](platform-support/riscv32-unknown-none-elf.md) | * | Bare RISC-V (RV32IMAFC ISA)
 `riscv64gc-unknown-none-elf` | * | Bare RISC-V (RV64IMAFDC ISA)
 `riscv64imac-unknown-none-elf` | * | Bare RISC-V (RV64IMAC ISA)
+[`riscv64-unknown-linux-ohos`](platform-support/openharmony.md) | ✓ | RISC-V 64-bit OpenHarmony
 `sparc64-unknown-linux-gnu` | ✓ | SPARC Linux (kernel 4.4, glibc 2.23)
 `sparcv9-sun-solaris` | ✓ | SPARC Solaris 11, illumos
 [`thumbv6m-none-eabi`](platform-support/arm-none-eabi.md) | * | Bare ARMv6-M

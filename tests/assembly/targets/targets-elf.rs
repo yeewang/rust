@@ -420,6 +420,9 @@
 //@ revisions: riscv64imac_unknown_none_elf
 //@ [riscv64imac_unknown_none_elf] compile-flags: --target riscv64imac-unknown-none-elf
 //@ [riscv64imac_unknown_none_elf] needs-llvm-components: riscv
+//@ revisions: riscv64_unknown_linux_ohos
+//@ [riscv64_unknown_linux_ohos] compile-flags: --target riscv64_unknown_linux_ohos
+//@ [riscv64_unknown_linux_ohos] needs-llvm-components: riscv
 //@ revisions: s390x_unknown_linux_gnu
 //@ [s390x_unknown_linux_gnu] compile-flags: --target s390x-unknown-linux-gnu
 //@ [s390x_unknown_linux_gnu] needs-llvm-components: systemz
